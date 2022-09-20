@@ -5,3 +5,22 @@ Layout is a two-dimensional layout system for the web. It lets you lay content o
 ## For more information about CSS Grids check the link below:
 
 https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids
+
+## What is CSS Grid?
+
+CSS Grid is a powerful tool that CSS gives us to easily align items and create two-dimensional layouts.
+
+- Grid and Flexbos are both part of CSS and can both be used in similar ways.
+- Flexbox was created first and has abit more browser compatibility.
+- I would highly recommend learning both of them.
+
+## Grid Containers & Grid Items
+
+The Grid Container is the element that holds grid items.
+Grid items are direct children of grid containers.A container is created with display: grid.
+
+## Two Dimensional Layouts
+
+Unlike Flexbox, which is one-dimensional and can be either a row or column, a CSS Grid allows us to create two-dimensional layouts with rows AND columns.
+
+![alt text](images/Screen Shot 2022-09-20 at 1.25.07 PM.png)
