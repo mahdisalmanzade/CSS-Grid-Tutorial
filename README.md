@@ -19,6 +19,8 @@ CSS Grid is a powerful tool that CSS gives us to easily align items and create t
 The Grid Container is the element that holds grid items.
 Grid items are direct children of grid containers.A container is created with display: grid.
 
+![](./images/Screen%20Shot%202022-09-20%20at%201.33.00%20PM.png)
+
 ## Two Dimensional Layouts
 
 Unlike Flexbox, which is one-dimensional and can be either a row or column, a CSS Grid allows us to create two-dimensional layouts with rows AND columns.
