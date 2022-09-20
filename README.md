@@ -4,6 +4,4 @@ Layout is a two-dimensional layout system for the web. It lets you lay content o
 
 ## For more information about CSS Grids check the link below:
 
-## MDN helpful tutorial:
-
 https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids
