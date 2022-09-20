@@ -23,4 +23,4 @@ Grid items are direct children of grid containers.A container is created with di
 
 Unlike Flexbox, which is one-dimensional and can be either a row or column, a CSS Grid allows us to create two-dimensional layouts with rows AND columns.
 
-![alt text](images/Screen Shot 2022-09-20 at 1.25.07 PM.png)
+![](./images/Screen%20Shot%202022-09-20%20at%201.25.07%20PM.png)
