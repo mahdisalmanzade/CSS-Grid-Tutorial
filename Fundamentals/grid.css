@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 1000px;
   margin: 100px auto;
   padding: 10px;
   /* display: grid doesn't have any effect at all until you mention how many columns or row you want and how big those rows or columns to be */
@@ -23,7 +23,10 @@ body {
   /* grid-template-columns: 30% 30% 30%; */
   /* grid-template-columns: 1fr 1fr 1fr; */
   /* same as above code */
-  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* Make grid responsive with repeat(auto-fill, minmax(200px, 1fr) */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
   /* For setting margin between grid items we use column-gap or row-gap */
   /* gap is a shorthand for both column-gap and row-gap */
   gap: 10px;
@@ -33,6 +36,10 @@ body {
   /* grid-auto-rows: minmax(200px, auto); */
   /* grid-template-rows: 200px 100px 200px; */
   /* grid-template-rows: repeat(3, 1fr); */
+  /* align-items: start;
+  align-items: center;
+  align-items: end;
+  justify-content: center; */
 }
 .item {
   background: steelblue;
@@ -40,6 +47,20 @@ body {
   font-size: 20px;
   padding: 20px;
   border: 1px solid skyblue;
+  /* align-self: center; */
   /* We use margin on Flexboxs */
   /* margin: 10px; */
 }
+
+/* On Screens which their width is equal to 500px or less apply this CSS */
+@media (max-width: 500px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* @media (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+} */
